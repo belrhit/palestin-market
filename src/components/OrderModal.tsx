@@ -57,7 +57,7 @@ export const OrderModal = ({ isOpen, onClose, productName }: OrderModalProps) =>
 العنوان / Address: ${formData.address}
     `.trim();
 
-    const whatsappNumber = "2126532338148"; // Replace with actual number
+    const whatsappNumber = "212653233814"; // Replace with actual number
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
